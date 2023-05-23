@@ -1,0 +1,17 @@
+[abc] : A single character of a, b or c
+[a-z] : A single character in the range of a-z
+a|b : Match either a or b
+\d : A digit in the range 0-9
+\w : A word character a-z A-Z 0-9
+. : Any single character
+a{3} : exactly 3 of a : aaa
+a{3,} : 3 or more of a : aaa or aaaaaa
+a{2,4} : Between 2 to 4 of a : aa or aaa or aaaa
+^ : The beginning of a word
+$ : The end of a word
+* : Matches zero or more occurrences
++ : Matches one or more occurrences
+? : Matches zero or one occurrences
+
+
+#We use the classes Pattern and Matcher
